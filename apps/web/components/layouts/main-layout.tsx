@@ -1,5 +1,6 @@
 import React from "react"
 import { NavHeader } from "../navigations/nav-header"
+import { NavFooter } from "../navigations/nav-footer"
 
 export default function MainLayout({
   children,
@@ -10,6 +11,7 @@ export default function MainLayout({
     <>
       <NavHeader />
       {children}
+      <NavFooter />
     </>
   )
 }
