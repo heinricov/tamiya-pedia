@@ -8,10 +8,10 @@ import { Menu, X } from "lucide-react"
 import { Button } from "@workspace/ui/components/button"
 
 const menuItems = [
-  { name: "Features", href: "#" },
-  { name: "Solution", href: "#" },
-  { name: "Pricing", href: "#" },
-  { name: "About", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "Class", href: "/class" },
+  { name: "Part", href: "/part" },
+  { name: "About", href: "/about" },
 ]
 
 export function NavHeader() {
@@ -22,7 +22,7 @@ export function NavHeader() {
         data-state={menuState && "active"}
         className="fixed z-20 w-full border-b border-dashed bg-white backdrop-blur md:relative dark:bg-zinc-950/50 lg:dark:bg-transparent"
       >
-        <div className="m-auto max-w-5xl px-6">
+        <div className="m-auto max-w-6xl px-6">
           <div className="flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
             <div className="flex w-full justify-between lg:w-auto">
               <Link

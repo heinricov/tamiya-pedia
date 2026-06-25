@@ -30,7 +30,7 @@ const links = [
 export function NavFooter() {
   return (
     <footer className="border-b bg-white py-12 dark:bg-transparent">
-      <div className="mx-auto max-w-5xl px-6">
+      <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-wrap justify-between gap-6">
           <span className="order-last block text-center text-sm text-muted-foreground md:order-first">
             © {2026} Tailark, All rights reserved
